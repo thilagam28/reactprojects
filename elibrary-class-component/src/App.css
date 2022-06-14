@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar-collapse{
+  font-size: 20;
+  font-weight: bolder;
+  padding-left: 60px;
+  }
+  .logbutton-head{
+  
+    font-weight: 200; 
+    color: white;
+      
+  }
+.logbutton{
+  
+  font-weight: 200; 
+  color: white;
+  margin-left: 600px;
+  margin-top: 10px;   
+}
+.logbutton1{
+  
+  font-weight: 200; 
+  color: white;
+  margin-left: 130px;
+  margin-top: 1px;   
+}
+.logbutton2{
+  
+  font-weight: 200; 
+  color: white;
+ 
+  margin-top: 50px;   
+}
+.log{
+  margin-top: 30px;    
+}
+.log-text{
+  width: 500px;
+  height: 30px;
+}
+.subbutton{
+  
+  font-weight: 200; 
+  color: white;
+  border-radius: 20px;
+  margin-left: 100px;
+  width: 150px;
+}
+.form-group{
+  font-size: larger;  
+  font-weight: 20;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width:50;
+  height:10;
+}
+.navbar-brand {
+font-size: 60;
+BORDER: 10PX SOLID WHITE;
+}
+
+.signup{
+  padding-left: 75;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bgimg{
+  background-image: url("./libra.jpg");
+  width: 800%;
+  height: 200%;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.logform{
+  color: rgba(226, 90, 11, 0.863);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 10pt;
+  padding-top: 10;
+  margin-top: 20%;
+  margin-bottom: 25%;
+  width: 600px;   
+  height: 350px; 
+background-color: rgb(255, 246, 240); 
+}
+.img-about
+{
+  background-image: url("./libra.jpg");
+  padding-left: 1px;    
+  width:1200px;
+  height:300px;
+  color: white;
+}
+.about-par{
+  padding: 50;
+  text-align: justify;
+  border: 1px solid gray;
+}
+.about-weltext{
+  text-align: justify;
+  border: 1px solid gray;
+}
+.ab-text{
+  width: 50;
+  height: 10;
+  border: 1px solid black;
+
+}
+.ab-subbtn{
+  margin-left: 200px;
+
+}
+.addbook{
+  width:10;
+  height:10;
+}
+
